@@ -19,3 +19,9 @@ height:95vh;
     width: 100%;	
 	
 }
+.mybtn{
+  width:30%;
+  margin:auto;
+  display:block;
+  padding:15px 20px; 
+}
