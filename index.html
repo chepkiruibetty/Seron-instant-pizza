@@ -45,12 +45,13 @@
     </div>
     <div class="container-fluid">
       <div class="container">
+          <h1 class="text-center">Order Your Pizza</h1>
         <div class="card">
-          <div class="card-header text-center">
+          <!-- <div class="card-header text-center">
             Order Your Pizza
-          </div>
+          </div> -->
           <form>
-                <div class="form-group">
+                <div class="form-group text-center">
                   <label for="Selectyourpizzaflavour1">Select Your Pizza Flavour</label>
                   <select class="form-control" id="selectyourpizzaflavour ">
                     <option>Berry</option>
@@ -60,6 +61,38 @@
                     <option>Turkish Ground</option>
                   </select>
                 </div>
+                <div class="form-group text-center">
+                        <label for="Chooseyourprefferedsize">Choose Your Preffered Size</label>
+                        <select class="form-control" id="chooseyourprefferedsize">
+                          <option>Regular</option>
+                          <option>Medium</option>
+                          <option>Large</option>
+                        </select>
+                      </div>
+                      <div class="form-group text-center">
+                            <label for="Chooseyourfavoritecrust">Choose Your Favorite Crust</label>
+                            <select class="form-control" id="chooseyourfavoritecrust">
+                              <option>Thin crust @Ksh.150</option>
+                              <option>Thick crust @Ksh. 200</option>
+                              <option>Deep crust @Ksh.250</option>
+                              <option>Stuffed crust@Ksh 300</option>
+                            </select>
+                          </div>
+                          <div class="form-group text-center">
+                                <label for="Chooseyourfavoritetopping">Choose Your Favorite Topping</label>
+                                <select class="form-control" id="chooseyourfavoritetopping">
+                                  <option>onions @Ksh.200 </option>
+                                  <option>mushroom @ Ksh 250</option>
+                                  <option>bacon @ Ksh 300</option>
+                                  <option>black olives @Ksh 350</option>
+                                </select>
+                              </div>
+                             <div class="form-group text-center">
+                                    <label for="number">Number of Pizza's</label>
+                                    <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
+                    
+                             </div>
+                             
           </form>
         </div>
       </div>
