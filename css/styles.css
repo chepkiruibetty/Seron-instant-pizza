@@ -1,3 +1,9 @@
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
 .navbar{
   font-size:25px !important;
   
@@ -19,9 +25,12 @@ height:95vh;
     width: 100%;	
 	
 }
-.mybtn{
-  width:30%;
-  margin:auto;
-  display:block;
-  padding:15px 20px; 
-}
+/* .mybtn{
+  width:30%; 
+   margin:auto;
+  display:block; 
+  padding:10px 10px;
+} */
+/* .myfooter{
+  padding:25px;
+} */
