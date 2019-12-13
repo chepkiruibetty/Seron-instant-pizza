@@ -17,7 +17,7 @@ var pizzaCrust=[
  "Deep crust",
  "Stuffed crust"
 ]; 
-var pizzaToppings=[
+var pizzaTopping=[
   "onion",
   "Mushroom",
   "bacon",
@@ -28,4 +28,10 @@ var pizzaToppings=[
 
 var flavour=document.getElementById("pizzaflavour").value;
 var size=document.getElementById("pizzasize").value;
-var 
+var crust=document.getElementById("pizzacrust").value;
+var topping=document.getElementById("pizzatopping").value;
+var number=document.getElementById("")
+
+function getAmount(){
+
+}
