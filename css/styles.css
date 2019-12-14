@@ -6,12 +6,13 @@
 }
 .navbar{
   font-size:25px !important;
-  background-color: brown !important;
-  position:sticky !important;
+  background-color: tomato !important;
+  
   
 }
 .navbar-brand{
-    font-size:25px;
+    font-size:30px;
+    color:black;
 
 }
 .toppage{
