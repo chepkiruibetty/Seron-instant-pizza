@@ -17,15 +17,14 @@ The user reloads the page,then click on the order a the navigation bar,where it 
 
 ## Setup/Installation Requirements
 
-Open terminal (CTRL ALT T)
-git clone https://github.com/chepkiruibetty/Seron-instant-pizza
-cd portfolio
-easy-to-understand
-use atom . or code . to open the clone repo on Atom or VS-code respectively
+- Open terminal (CTRL ALT T)
+- git clone https://github.com/chepkiruibetty/Seron-instant-pizza
+- cd Seron-instant-pizza
+- use atom . or code . to open the clone repo on Atom or VS-code respectively
 
 ## Known Bugs
 
-My website is not quite responsive, but i am working on making it work better.
+My website is not quite responsive, but i am working on it to make it work better.
 
 ## Technologies Used
 
