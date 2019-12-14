@@ -40,8 +40,10 @@ function getAmount() {
       " pizza," +
       "which amounts to Ksh. " +
       results +
-      " Thanks"
+      " Thanks for your order,welcome again!"
   );
   prompt("Enter your location");
-  alert("order delivered now.delivery fee is 50/=");
+  prompt("Enter your name");
+  prompt("Enter your phone number")
+  alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
 }
