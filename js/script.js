@@ -31,6 +31,7 @@ function getNumber() {
   var number = document.getElementById("number").value;
   return parseInt(number);
 }
+
 function getAmount() {
   var results =
     (getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
