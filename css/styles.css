@@ -2,12 +2,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
 }
 
 .navbar {
   font-size: 25px !important;
-  background-color: tomato !important;
+  background-color: goldenrod !important;
+  z-index: 100;
 }
 
 .navbar-brand {
@@ -17,13 +17,12 @@
 
 .toppage {
   height: 95vh;
-  background-image: url("https://bit.ly/2RN5Ebo");
+  background-image: url("");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
 }
-
 .landingtext {
   left: 0;
   margin-top: -100px;
@@ -33,15 +32,15 @@
   width: 100%;
 }
 
-.landingtext>h1 {
+.landingtext > h1 {
   font-size: 3vw;
   font-weight: bold;
-  color: white;
+
 }
 
 .mycard {
   font-size: 18px;
-  padding: 15px 20px;
+  padding: 15px 15px;
 }
 
 .mybtn {
@@ -51,21 +50,20 @@
 .myform {
   padding: 16px 20px;
 }
-.myfooter{
-  background-color: rgba(10, 100, 100, 1);
-  text-align: center;
-  color: aliceblue;
-  padding-bottom: 2%;
-  width: 100%;
+footer {
+  background-color: goldenrod;
+  height: 20vh;
+  font-size: 1vw;
+  font-weight: bold;
 }
 
 /* Small devices (landscape phones, 576px and down) */
 @media (max-width: 576px) {
-  .landingtext>h1 {
+  .landingtext > h1 {
     font-size: 9vw;
   }
-  .myfooter{
-    
+  footer {
+    height: 30vh;
+    font-size:5vw;
   }
-  
-  }
+}
