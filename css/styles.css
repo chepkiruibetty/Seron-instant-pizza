@@ -6,6 +6,8 @@
 }
 .navbar{
   font-size:25px !important;
+  background-color: brown !important;
+  position:sticky !important;
   
 }
 .navbar-brand{
