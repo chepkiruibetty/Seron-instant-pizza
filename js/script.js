@@ -38,7 +38,7 @@ function getAmount() {
   alert(
     "You've ordered " +
       getNumber("") +
-      " pizza," +
+      " pizza's," +
       "which amounts to Ksh. " +
       results +
       " Thanks for your order,welcome again!"
