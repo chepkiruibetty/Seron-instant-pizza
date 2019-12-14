@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <nav class="navbar sticky-top navbar-light bg-light topnav">
+  <nav class=" navbar navbar-expand-lg navbar-light bg-light topnav">
     <a class="navbar-brand" href="#">Seron Instant Pizza</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
       aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,6 +46,7 @@
           <div class="form-group text-center myform">
             <label for="Selectyourpizzaflavour1">Select Your Pizza Flavour</label>
             <select class="form-control" id="pizzaflavour">
+              <option>Select Pizza Flavour</option>
               <option value="300">Berry@Ksh 300</option>
               <option value="400">Butternut Squash@ Ksh.400</option>
               <option value="500">Chicken @Ksh 500</option>
@@ -56,6 +57,7 @@
           <div class="form-group text-center myform">
             <label for="Chooseyourprefferedsize">Choose Your Preffered Size</label>
             <select class="form-control" id="pizzasize">
+              <option>Select Pizza Size</option>
               <option value="500">Regular@Ksh 500</option>
               <option value="1000">Medium @Ksh 1000</option>
               <option value="1200">Large@Ksh 1200</option>
@@ -64,6 +66,7 @@
           <div class="form-group text-center myform">
             <label for="Chooseyourfavoritecrust">Choose Your Favorite Crust</label>
             <select class="form-control" id="pizzacrust">
+              <option>Select Pizza Crust</option>
               <option value="150">Thin crust @Ksh.150</option>
               <option value="200">Thick crust @Ksh. 200</option>
               <option value="250">Deep crust @Ksh.250</option>
@@ -73,6 +76,7 @@
           <div class="form-group text-center myform">
             <label for="Chooseyourfavoritetopping">Choose Your Favorite Topping</label>
             <select class="form-control" id="pizzatopping">
+              <option>Select Pizza Toppings</option>
               <option value="200">onions @Ksh.200 </option>
               <option value="250">mushroom @ Ksh 250</option>
               <option value="300">bacon @ Ksh 300</option>
@@ -85,22 +89,22 @@
           </div>
         </form>
         <div>
-        <button type="button" class="btn btn-info mybtn align=center" onclick="getAmount()">CHECKOUT</button>
+          <button type="button" class="btn btn-info mybtn align=center" onclick="getAmount()">CHECKOUT</button>
         </div>
       </div>
     </div>
   </div>
- 
- 
+  <div>
+    <footer class="myfooter text-center" id="contacts">
+      <p>email:seroninstantpizza@gmail.com</p>
+      <p>contacts:+254727325535</p>
+      <p><em>&copy;2019</em></p>
+    </footer>
+  </div>
 
-  <!-- <br><br>
-  <footer>
-      <div class="myfooter text-center" id="contacts">
-        <p>email:seroninstantpizza@gmail.com</p>
-        <p>contacts:+254727325535</p>
-        <p><em>&copy;2019</em></p>
-      </div>
-    </footer>   -->
+
+
+  
 
   <!-- js link starts -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"

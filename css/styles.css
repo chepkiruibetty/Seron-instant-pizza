@@ -1,53 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 
-*{
-  padding:0;
-  margin:0;
-  box-sizing:border-box;
 }
-.navbar{
-  font-size:25px !important;
+
+.navbar {
+  font-size: 25px !important;
   background-color: tomato !important;
-  
-  
 }
-.navbar-brand{
-    font-size:30px;
-    color:black;
 
+.navbar-brand {
+  font-size: 30px;
+  color: black;
 }
-.toppage{
-height:95vh;
-background-image:url('https://bit.ly/38z4upQ');
-background-size:cover;
-background-repeat:no-repeat;
-background-position:center; 
-width:100%;
+
+.toppage {
+  height: 95vh;
+  background-image: url("https://bit.ly/2RN5Ebo");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
 }
+
 .landingtext {
-	left: 0;
-  line-height: 200px;
-    margin-top: -100px;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-    color:black;	
-	
-}
-.mycard{
-  background-color: black;
-  color:white;
-  font-size:18px;
-  padding:15px 20px;
-}
-.mybtn{
-  padding:20px 20px;
-  
-  
-  
-  
-}
-.myform{
-  padding:16px 20px;
+  left: 0;
+  margin-top: -100px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
 }
 
+.landingtext>h1 {
+  font-size: 3vw;
+  font-weight: bold;
+  color: white;
+}
+
+.mycard {
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
+.mybtn {
+  padding: 20px 20px;
+}
+
+.myform {
+  padding: 16px 20px;
+}
+.myfooter{
+  background-color: rgba(10, 100, 100, 1);
+  text-align: center;
+  color: aliceblue;
+  padding-bottom: 2%;
+  width: 100%;
+}
+
+/* Small devices (landscape phones, 576px and down) */
+@media (max-width: 576px) {
+  .landingtext>h1 {
+    font-size: 9vw;
+  }
+  .myfooter{
+    
+  }
+  
+  }
