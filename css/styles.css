@@ -37,6 +37,14 @@ width:100%;
 .mycard{
   background-color: black;
   color:white;
-  font-size:20px;
+  font-size:18px;
+  padding:15px 20px;
+}
+.mybtn{
+  padding:20px 20px;
+  
+}
+.myform{
+  padding:16px 20px;
 }
 
