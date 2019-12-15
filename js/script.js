@@ -6,9 +6,23 @@ var pizzaFlavour = [
   "Hummus",
   "Turkish Ground"
 ];
-var pizzaSize = ["Regular", "Medium", "Large"];
-var pizzaCrust = ["Thin crust", "Thick crust", "Deep crust", "Stuffed crust"];
-var pizzaTopping = ["onion", "Mushroom", "bacon", "black olives"];
+var pizzaSize =[ 
+ "Regular",
+  "Medium",
+ "Large",
+  ];
+var pizzaCrust = [ 
+  "Thin crust",
+   "Thick crust", 
+   "Deep crust", 
+   "Stuffed crust",
+  ];
+var pizzaTopping = [
+  "onion", 
+ "Mushroom", 
+ "bacon", 
+ "black olives",
+];
 
 // calling functions
 function getFlavour() {
@@ -37,8 +51,7 @@ function getNumber() {
 }
 
 function getAmount() {
-  var results =
-    (getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
+  var results =(getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
   alert(
     "You've ordered " +
     getNumber("") +  

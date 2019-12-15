@@ -16,8 +16,8 @@
 }
 
 .toppage {
-  height: 95vh;
-  background-image: url("https://bit.ly/2YSfeLt");
+  height: 100vh;
+  background-image: url("https://bit.ly/2rN3jm8");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,7 +41,7 @@
 .mycard {
   font-size: 18px;
   padding: 15px 15px;
-  background-color:;
+ background-color:whitesmoke;
 }
 
 .mybtn {
