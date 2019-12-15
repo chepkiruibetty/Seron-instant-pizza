@@ -17,7 +17,7 @@
 
 .toppage {
   height: 95vh;
-  background-image: url("");
+  background-image: url("https://bit.ly/2YSfeLt");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -41,17 +41,19 @@
 .mycard {
   font-size: 18px;
   padding: 15px 15px;
+  background-color:;
 }
 
 .mybtn {
   padding: 20px 20px;
+
 }
 
 .myform {
   padding: 16px 20px;
 }
 footer {
-  background-color: goldenrod;
+  background-color:burlywood;
   height: 20vh;
   font-size: 1vw;
   font-weight: bold;
