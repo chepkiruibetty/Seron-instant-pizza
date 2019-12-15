@@ -8,7 +8,7 @@ var pizzaFlavour = [
 ];
 var pizzaSize =[ 
  "Regular",
-  "Medium",
+ "Medium",
  "Large",
   ];
 var pizzaCrust = [ 
@@ -18,7 +18,7 @@ var pizzaCrust = [
    "Stuffed crust",
   ];
 var pizzaTopping = [
-  "onion", 
+ "Onion", 
  "Mushroom", 
  "bacon", 
  "black olives",
