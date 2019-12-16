@@ -66,11 +66,11 @@
             </div>
             <div class="form-group text-center myform">
               <label for="Chooseyourfavoritecrust">Choose Your Favorite Crust</label>
-              <select class="form-control" id="pizzacrust">
+              <select class="form-control" id="pizzacrust" name="pizza">
                 <option>Select Pizza Crust</option>
                 <option value="150">Thin crust @Ksh.150</option>
                 <option value="200">Thick crust @Ksh. 200</option>
-                <option value="250">Deep crust @Ksh.250</option>
+                <option value="250" name="pizza">Deep crust @Ksh.250</option>
                 <option value="300">Stuffed crust@Ksh 300</option>
               </select>
             </div>
@@ -89,16 +89,15 @@
               <input type="number" class="form-control" id="number" placeholder="Number of pizzas" min="1" required>
             </div>
           </form>
-          <div class="text-center">
-            <button type="button" class="btn btn-info mybtn" onclick="getAmount()">MAKE DELIVERY</button>
-          </div>
           <div class="text-center p-5">
             <button type="button" class="btn btn-success mybtn" onclick="getPick()">PICK UP</button>
+          </div>
+          <div class="text-center">
+            <button id="make-delivery" type="button" class="btn btn-info mybtn">MAKE DELIVERY</button>
           </div>
         </div>
       </div>
     </div>
-
 
     <!-- footer -->
     <footer class="footer mt-5" id="contacts">
