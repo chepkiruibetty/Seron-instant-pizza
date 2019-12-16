@@ -73,18 +73,20 @@ function getAmount(flavour, size, crust, topping, number) {
       parseInt(topping.val())) *
     parseInt(number.val());
   alert(
-    "You've ordered " +
-      number.val() +
-      " " +
+    "You've ordered " + 
+      number.val() +  
+      " "  +
+      "pizza's" + 
+      " "  +
       flavour.html() +
-      " " + 
+      " "  + 
       size.html() +
-      " " +
+      " "  +
       crust.html() +
-      " " + 
+      " "  + 
       topping.html() +
-      " pizza's," +
-      "which amounts to Ksh. " +
+      " "  +
+      " which amounts to Ksh. "  +
       results +
       " Thanks for your order,welcome again!"
   );
@@ -93,15 +95,28 @@ function getAmount(flavour, size, crust, topping, number) {
   prompt("Enter your phone number");
   alert("Your order will be delivered in a while, delivery fee is  Ksh.150/=");
 }
-function getPick() {
+function getPick(flavour, size, crust, topping, number) {
   var results =
-    (getFlavour() + getSize() + getCrust() + getTopping()) * getNumber();
+  (parseInt(flavour.val()) +
+  parseInt(size.val()) +
+  parseInt(crust.val()) +
+  parseInt(topping.val())) *
+  parseInt(number.val());
   alert(
-    "You've ordered  " +
-      getNumber("") +
-      " pizza's,  " +
-      "which amounts to ksh   " +
-      results +
+    "You've ordered "  +
+    number.val() +
+    " "  +
+    " pizza's, "  +
+    flavour.html() +
+    " "   + 
+    size.html() +
+    " "  +
+    crust.html() +
+    "  "  + 
+    topping.html() +
+    "  "  +
+    " which amounts to Ksh. " +
+      results  +
       "  Thanks for shopping with us  "
   );
 }
@@ -114,6 +129,18 @@ $(document).ready(function() {
     var number = $("#number");
 
     getAmount(flavour, size, crust, topping, number);
+    event.preventDefault();
+  });
+});
+$(document).ready(function() {
+  $("#pick-up").click(function(event) {
+    var flavour = $("#pizzaflavour :selected");
+    var size = $("#pizzasize :selected");
+    var crust = $("#pizzacrust :selected");
+    var topping = $("#pizzatopping :selected");
+    var number = $("#number");
+
+    getPick(flavour, size, crust, topping, number);
     event.preventDefault();
   });
 });
