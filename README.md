@@ -14,6 +14,7 @@ The user reloads the page,then click on the order a the navigation bar,where it 
 
 ## Codebeat
 
+- https://codebeat.co/projects/github-com-chepkiruibetty-seron-instant-pizza-master
 
 ## Setup/Installation Requirements
 
